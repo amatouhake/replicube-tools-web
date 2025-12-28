@@ -1,15 +1,43 @@
 <script lang="ts">
 	import 'carbon-components-svelte/css/all.css';
-	import { Theme } from 'carbon-components-svelte';
+	import {
+		Header,
+		HeaderUtilities,
+		SideNav,
+		SideNavItems,
+		SideNavLink,
+		Content,
+		SkipToContent,
+		Theme
+	} from 'carbon-components-svelte';
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
+	let isSideNavOpen = $state(false);
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<!-- @ts-ignore -->
+<Header platformName="Replicube Tools" bind:isSideNavOpen>
+	<svelte:fragment slot="skip-to-content">
+		<SkipToContent />
+	</svelte:fragment>
+</Header>
 
-<Theme theme="g100" render="toggle" />
+<SideNav bind:isOpen={isSideNavOpen}>
+	<SideNavItems>
+		<SideNavLink href="/" text="Dashboard" />
+		<SideNavLink href="/bitmask" text="Bitmask Generator" />
+		<SideNavLink href="/functions" text="Function Generator" />
+		<SideNavLink href="/lua-size" text="Lua Size Checker" />
+	</SideNavItems>
+</SideNav>
+
+<Content>
+	{@render children()}
+</Content>
+
+<Theme theme="g100" />
