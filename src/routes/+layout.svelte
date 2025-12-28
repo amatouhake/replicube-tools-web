@@ -1,5 +1,5 @@
 <script lang="ts">
-	import 'carbon-components-svelte/css/all.css';
+	import 'carbon-components-svelte/css/g100.css';
 	import {
 		Header,
 		HeaderUtilities,
@@ -33,6 +33,7 @@
 		<SideNavLink href="/bitmask" text="Bitmask Generator" />
 		<SideNavLink href="/function" text="Function Generator" />
 		<SideNavLink href="/lua-size" text="Lua Size Checker" />
+		<SideNavLink href="/rvs" text="Random Value Searcher" />
 	</SideNavItems>
 </SideNav>
 

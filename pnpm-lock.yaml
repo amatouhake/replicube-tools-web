@@ -29,6 +29,9 @@ importers:
       carbon-components-svelte:
         specifier: ^0.98.1
         version: 0.98.1
+      carbon-icons-svelte:
+        specifier: ^13.8.0
+        version: 13.8.0
       eslint:
         specifier: ^9.39.1
         version: 9.39.2
@@ -1010,6 +1013,9 @@ packages:
 
   carbon-components-svelte@0.98.1:
     resolution: {integrity: sha512-aGyKwleecMYcJKqzPlCYnRysWW36M2v0cChmO/QR0CDzgEfFE7NGRmINK/kukDv15cQkbfeFq5YBZkm9mHknnw==}
+
+  carbon-icons-svelte@13.8.0:
+    resolution: {integrity: sha512-1sTbSOhiKjs7BXj2Ctk6tekSNX4DLUy9miNeYaQK/jeveM4x/+et09JH8xnrwRE1QseLdRd3sOoVwqPZEYsdkA==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2417,6 +2423,8 @@ snapshots:
     dependencies:
       '@ibm/telemetry-js': 1.10.2
       flatpickr: 4.6.9
+
+  carbon-icons-svelte@13.8.0: {}
 
   chalk@4.1.2:
     dependencies:
