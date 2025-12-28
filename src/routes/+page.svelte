@@ -14,7 +14,7 @@
 			</ClickableTile>
 		</Column>
 		<Column lg={4} md={4} sm={4}>
-			<ClickableTile href="/functions">
+			<ClickableTile href="/function">
 				<h3>Function Generator</h3>
 				<p>Generate Lua functions easily.</p>
 			</ClickableTile>

@@ -31,7 +31,7 @@
 	<SideNavItems>
 		<SideNavLink href="/" text="Dashboard" />
 		<SideNavLink href="/bitmask" text="Bitmask Generator" />
-		<SideNavLink href="/functions" text="Function Generator" />
+		<SideNavLink href="/function" text="Function Generator" />
 		<SideNavLink href="/lua-size" text="Lua Size Checker" />
 	</SideNavItems>
 </SideNav>
