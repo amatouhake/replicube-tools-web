@@ -1,18 +1,14 @@
-# sv
+# Replicube Tools Web
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## IMPORTANT NOTE
+Development has been discontinued.
+I concluded that the web environment was insufficient for processing tasks requiring substantial computational power and data storgae, such as exhaustive seatches. I now intend to rebuild it from scratch utilising Tauri.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+## Features
+- Bitmask Generator
+- Function Generator
+- Value Searcher
+- Lua Code Size Watcher
 
 ## Developing
 
